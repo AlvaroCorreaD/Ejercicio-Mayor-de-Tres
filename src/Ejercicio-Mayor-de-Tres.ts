@@ -5,11 +5,11 @@ btncomparar.addEventListener("click", () => {
   let numero1: number = dato1.value;
   let numero2: number = dato2.value;
   let numero3: number = dato3.value;
-  if (numero1 > numero2 && numero1 > numero3){
-    console.log("El N°1: " + numero1 + es el mayor entre los tres.");
-  } else if (numero2 > numero1 && numero2 > numero3){
-    console.log("El N°2: " + numero2 + " es el mayor entre los tres.");
-  } else if (numero3 > numero1 && numero3 > numero2){
-    console.log("El N°3: " + numero3 + " es el mayor entre los tres.")
+  if (numero1 > numero2 && numero1 > numero3) {
+    console.log("El N°: " + numero1 + " es el mayor entre los tres.");
+  } else if (numero2 > numero1 && numero2 > numero3) {
+    console.log("El N°: " + numero2 + " es el mayor entre los tres.");
+  } else if (numero3 > numero1 && numero3 > numero2) {
+    console.log("El N°: " + numero3 + " es el mayor entre los tres.");
   }
-};
+});
